@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    background:linear-gradient(rgb(232, 245, 247), rgb(17, 206, 27));
+ 
+    font-family: sans-serif;
+    color:white;
+}
+/*.location,.temperature{
+    height:30vh;
+    width:50%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.temperature{
+    flex-direction:column;
+}
+.degree-section{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+}
+.degree-section span{
+    margin:10px;
+    font-size:30px;
+}
+.degree-section h2{
+    font-size:40px;
+}*/
+.degree-section{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+}
+.degree-section span{
+    margin:10px;
+    font-size:30px;
+}
+.degree-section h2{
+    font-size:40px;
+}
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+  .input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  .input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #ef9a9a;
+  }
+  .input-group.md-form.form-sm.form-2 input.lime-border {
+    border: 1px solid #cddc39;
+  }
+  .input-group.md-form.form-sm.form-2 input.amber-border {
+    border: 1px solid #ffca28;
+  }
+  
+  
